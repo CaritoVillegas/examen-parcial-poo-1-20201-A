@@ -1,6 +1,7 @@
 package com.oop.exam.service;
 
 import com.oop.exam.model.Movie;
+import com.oop.exam.model.Review;
 
 import java.util.LinkedList;
 
@@ -13,5 +14,13 @@ public class MovieManager {
 
     public LinkedList<Movie> getMovies() {
         return movies;
+    }
+
+    public Movie findMovie(String name) {
+       return ();
+    }
+
+    public void addMovie(Movie movie){
+        movies.add(movie);
     }
 }
